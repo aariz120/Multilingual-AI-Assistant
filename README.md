@@ -63,7 +63,14 @@ open up localhost:
 
   git clone "Your-repository"
 
+
   sudo apt install python3-pip
+
+  # Important command:
+  ''''
+  sudo apt install portaudio19-dev
+  python3 -m  pip install PyAudio
+  ''''
 
   pip3 install -r requirements.txt
 
